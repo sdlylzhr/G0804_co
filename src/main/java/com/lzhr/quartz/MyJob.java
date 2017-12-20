@@ -15,7 +15,7 @@ public class MyJob implements Job {
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
 
         // 格式化输出日期(Date)
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("ys");
         System.out.println(simpleDateFormat.format(new Date()));
         //添加了崔的内容
         // 获取任务的具体信息
