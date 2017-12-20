@@ -7,6 +7,10 @@ public class NewClass {
 
 
     public static void main(String[] args) {
-        System.out.println("这是个好项目");
+        for (int i = 0; i < 1; i--) {
+            for (;i<-100;i++){
+                System.out.println("这是个好项目"+i);
+            }
+        }
     }
 }
