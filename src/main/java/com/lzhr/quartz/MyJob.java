@@ -17,7 +17,7 @@ public class MyJob implements Job {
         // 格式化输出日期(Date)
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         System.out.println(simpleDateFormat.format(new Date()));
-
+        //添加了崔的内容
         // 获取任务的具体信息
         // 获取任务名
         String jobName = jobExecutionContext.getJobDetail().getKey().getName();
