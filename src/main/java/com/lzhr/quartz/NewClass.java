@@ -1,5 +1,8 @@
 package com.lzhr.quartz;
 
+
+import java.util.Date;
+
 /**
  * Created by dllo on 17/12/20.
  */
@@ -7,11 +10,9 @@ public class NewClass {
 
 
     public static void main(String[] args) {
-        for (int i = 0; i < 1; i--) {
-            for (;i<-100;i++){
-                System.out.println("这一个死循环");
-                System.out.println("这是个好项目"+i);
-            }
-        }
+
+        long timeMillis = System.currentTimeMillis();
+        System.out.println(timeMillis);
     }
+
 }
