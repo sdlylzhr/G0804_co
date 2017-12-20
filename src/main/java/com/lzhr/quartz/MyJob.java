@@ -34,5 +34,4 @@ public class MyJob implements Job {
         System.out.println("添加一个新方法");
     }
 
-
 }
