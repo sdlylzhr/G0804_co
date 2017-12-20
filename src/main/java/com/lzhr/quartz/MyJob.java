@@ -26,6 +26,8 @@ public class MyJob implements Job {
         JobDataMap dataMap = jobExecutionContext.getJobDetail().getJobDataMap();
         String param = dataMap.getString("param");
         System.out.println("传递的参数是: " + param + "; 任务名是: " + jobName);
+
+        //00000
     }
 
     public void addNewFunction(){

@@ -9,6 +9,16 @@ public class NewModel {
 
     private Integer id;
 
+    // 22222
+
+    public void read(){
+
+        System.out.println("读书");
+
+        System.out.println("head");
+    }
+
+    //23333333333
     @Override
     public String toString() {
         return "NewModel{" +
