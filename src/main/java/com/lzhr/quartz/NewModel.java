@@ -9,6 +9,12 @@ public class NewModel {
 
     private Integer id;
 
+
+
+    public void head(){
+        System.out.println("head");
+    }
+
     @Override
     public String toString() {
         return "NewModel{" +
