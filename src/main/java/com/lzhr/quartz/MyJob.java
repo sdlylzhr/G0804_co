@@ -27,4 +27,10 @@ public class MyJob implements Job {
         String param = dataMap.getString("param");
         System.out.println("传递的参数是: " + param + "; 任务名是: " + jobName);
     }
+
+    public void addNewFunction(){
+        System.out.println("添加一个新方法");
+    }
+
+
 }
