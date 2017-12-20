@@ -11,6 +11,13 @@ public class NewModel {
 
     // 22222
 
+    public void read(){
+
+        System.out.println("读书");
+    }
+
+
+
     @Override
     public String toString() {
         return "NewModel{" +
