@@ -8,6 +8,8 @@ import org.quartz.impl.StdSchedulerFactory;
  */
 public class QuartzManager {
 
+    // 添加注释
+
     // 定时器工厂
     private static SchedulerFactory factory = new StdSchedulerFactory();
 
